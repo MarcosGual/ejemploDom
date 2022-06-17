@@ -2,6 +2,8 @@
 
 //GerElementByID()
 
+
+
 //GetElementByClassName()
 
 //getElementsByTagName()
