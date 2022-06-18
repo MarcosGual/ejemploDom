@@ -3,10 +3,14 @@
 :root {
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 20px;
+  color: black;
 }
 
 body {
+  margin: 0;
   display: flex;
+  background-image: linear-gradient(#5fe2ae, #2fb6cf, #5e9cc2);
+  height: 100vh;
 }
 
 ul {
@@ -15,19 +19,25 @@ ul {
   flex-direction: column;
 }
 
-li{
-    margin: 8px;
-    padding: 1.1rem;
-    background-color: orange;
-    text-align: center;
+li {
+  margin: 6px;
+  margin-left: -33px;
+  padding: 1.1rem;
+  background-color: orange;
+  text-align: center;
 }
 
-li:hover{
-    background-color: orangered;
-    font-weight: bolder;
-    cursor: pointer;
+li:hover {
+  background-color: orangered;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
 .contenedor {
   margin: auto;
+  border: 5px solid black;
+  border-radius: 15px;
+  min-width: 70vw;
+  max-width: 75vw;
+  text-align: center;
 }
